@@ -24,7 +24,7 @@ Inference with detect.py:
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
                             
                             
-$ python detect.py --weight ./best.pt --source 'path/to/the/video' --augment --save-txt --save-conf --device=0,1,2,3 --img 1280
+    $ python detect.py --weight ./best.pt --source 'path/to/the/video' --augment --save-txt --save-conf --device=0,1,2,3 --img 1280
 
 
 
