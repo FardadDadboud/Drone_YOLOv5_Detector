@@ -14,13 +14,15 @@ Inference with detect.py:
 
 `detect.py` runs inference on a variety of sources and saving results to `runs/detect`.
 
-$ python detect.py --source 0  # webcam
+
+  $ python detect.py --source 0  # webcam
                             img.jpg  # image
                             vid.mp4  # video
                             path/  # directory
                             path/*.jpg  # glob
                             'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+                            
                             
 $ python detect.py --weight ./best.pt --source 'path/to/the/video' --augment --save-txt --save-conf --device=0,1,2,3 --img 1280
 
