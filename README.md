@@ -15,6 +15,7 @@ Inference with detect.py:
 `detect.py` runs inference on a variety of sources and saving results to `runs/detect`.
 
 $ python detect.py --source 0  # webcam
+
                             img.jpg  # image
                             vid.mp4  # video
                             path/  # directory
